@@ -816,8 +816,7 @@ def add_final_training_ops(class_count, labels, final_tensor_name, bottleneck_te
         labels=ground_truth_input, logits=logits)
   with tf.name_scope('total'):
       cross_entropy_mean = tf.reduce_mean(cross_entropy)
-      total_loss = cross_entropy_mean +
-                        FLAGS.center_loss_factor * center_loss
+      total_loss = cross_entropy_mean + FLAGS.center_loss_factor * center_loss
   tf.summary.scalar('center_loss', center_loss)
   tf.summary.scalar('cross_entropy', cross_entropy_mean)
   tf.summary.scalar('total_loss', total_loss)
