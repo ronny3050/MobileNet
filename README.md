@@ -7,7 +7,7 @@
 
 A tensorflow implementation of Google's [MobileNets](https://arxiv.org/abs/1704.04861) for re-training/fine-tuning on your own custom dataset with the addition of (optional) center loss or triplet loss. Additionally, this repo can be used to re-train Inception network as well with the above added benefits.
 
-## Tensorflow release
+## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1000px-Tensorflow_logo.svg.png" width="25"/> Tensorflow release
 Currently this repo is compatible with Tensorflow 1.3.0.
 
 ## News
