@@ -25,6 +25,7 @@ Inception_v3 is the most accurate model, but also the slowest. For faster or sma
 These models are automatically downloaded for you.
 
 ## <img src="https://image.flaticon.com/icons/svg/1/1383.svg" width="25"/> Installation
+Details on how to install and re-train on your own dataset can be found on the ![wiki page](https://github.com/ronny3050/MobileNet/wiki/Re-train-MobileNet-on-your-own-dataset). Different parameters that can be tweaked are also given there.
 
 ## <img src="https://image.flaticon.com/icons/svg/66/66298.svg" width="25"/> Inspiration
 The code is heavily inspired by the Tensorflow's [Retrain Script](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_retraining/retrain.py) and [FaceNet](https://github.com/davidsandberg/facenet).
