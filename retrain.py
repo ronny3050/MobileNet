@@ -1201,7 +1201,7 @@ if __name__ == '__main__':
   parser.add_argument(
       '--intermediate_output_graphs_dir',
       type=str,
-      default='E:\debdebay\LemurIntermediates\\',
+      default='',
       help='Where to save the intermediate graphs.'
   )
   parser.add_argument(
