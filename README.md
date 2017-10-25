@@ -1,7 +1,7 @@
 # MobileNet ![You_asked for_this](https://img.shields.io/badge/You_asked-for_this-orange.svg)
 
 
-> MobileNet with ability to fine-tune and incorporate center or triplet loss
+> MobileNet on TensorFlow with ability to fine-tune and incorporate center or triplet loss
 
 A tensorflow implementation of Google's [MobileNets](https://arxiv.org/abs/1704.04861) for re-training/fine-tuning on your own custom dataset with the addition of (optional) center loss or triplet loss. Additionally, this repo can be used to re-train Inception network as well with the above added benefits.
 
