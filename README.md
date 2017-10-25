@@ -24,7 +24,7 @@ Inception_v3 is the most accurate model, but also the slowest. For faster or sma
 
 These models are automatically downloaded for you.
 
-## ![](https://image.flaticon.com/icons/svg/1/1383.svg =80x80) Installation
+## ![](https://image.flaticon.com/icons/svg/1/1383.svg | width=20) Installation
 
 ## Inspiration
 The code is heavily inspired by the Tensorflow's [Retrain Script](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/examples/image_retraining/retrain.py) and [FaceNet](https://github.com/davidsandberg/facenet).
